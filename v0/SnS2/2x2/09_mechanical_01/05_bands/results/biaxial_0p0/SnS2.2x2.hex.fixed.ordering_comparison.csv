@@ -1,0 +1,3 @@
+ordering,band_gap_ev,gap_character,vbm_relative_to_scf_fermi_ev,cbm_relative_to_scf_fermi_ev,max_same_index_neighbor_step_ev,max_sorted_spectrum_difference_ev,data_file
+overlap,1.5517999999999998,indirect,-0.7229999999999999,0.8288,0.33610000000000007,0.0,results/biaxial_0p0/SnS2.2x2.hex.fixed.bands.dat.gnu
+no_overlap,1.5517999999999998,indirect,-0.7229999999999999,0.8288,0.16410000000000036,0.0,results/biaxial_0p0/SnS2.2x2.hex.fixed.nooverlap.bands.dat.gnu

@@ -1,0 +1,142 @@
+Biaxial-strain SCF results
+==========================
+
+Case: biaxial_-5p0
+Strain: -5.0%
+Status: complete
+Input: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/inputs/biaxial_-5p0/scf.in
+Output: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/outputs/biaxial_-5p0/scf.out
+Occupations: smearing
+Smearing: cold
+degauss (Ry): 0.01
+Final total energy (Ry): -830.05502327
+Final total energy (eV): -11293.4739218113
+Relative energy (eV): 0.7929969391
+Fermi energy (eV): -1.0079
+Final total force (Ry/bohr): 0.001859
+
+Final stress and pressure:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=       22.39
+   0.00022528   0.00000009  -0.00000036           33.14        0.01       -0.05
+   0.00000009   0.00022538   0.00000021            0.01       33.15        0.03
+  -0.00000036   0.00000021   0.00000603           -0.05        0.03        0.89
+
+Case: biaxial_-3p0
+Strain: -3.0%
+Status: complete
+Input: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/inputs/biaxial_-3p0/scf.in
+Output: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/outputs/biaxial_-3p0/scf.out
+Occupations: smearing
+Smearing: cold
+degauss (Ry): 0.01
+Final total energy (Ry): -830.09230935
+Final total energy (eV): -11293.9812247735
+Relative energy (eV): 0.2856939769
+Fermi energy (eV): -1.4499
+Final total force (Ry/bohr): 0.002879
+
+Final stress and pressure:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=       11.52
+   0.00011904  -0.00000007   0.00000045           17.51       -0.01        0.07
+  -0.00000007   0.00011896  -0.00000026           -0.01       17.50       -0.04
+   0.00000045  -0.00000026  -0.00000315            0.07       -0.04       -0.46
+
+Case: biaxial_-1p0
+Strain: -1.0%
+Status: complete
+Input: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/inputs/biaxial_-1p0/scf.in
+Output: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/outputs/biaxial_-1p0/scf.out
+Occupations: smearing
+Smearing: cold
+degauss (Ry): 0.01
+Final total energy (Ry): -830.11052723
+Final total energy (eV): -11294.2290916581
+Relative energy (eV): 0.0378270922
+Fermi energy (eV): -1.7968
+Final total force (Ry/bohr): 0.002069
+
+Final stress and pressure:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=        2.89
+   0.00003394  -0.00000005   0.00000052            4.99       -0.01        0.08
+  -0.00000005   0.00003388  -0.00000030           -0.01        4.98       -0.04
+   0.00000052  -0.00000030  -0.00000891            0.08       -0.04       -1.31
+
+Case: biaxial_0p0
+Strain: 0.0%
+Status: complete
+Input: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/../02_scf/inputs/SnS2.2x2.hex.scf.in
+Output: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/../02_scf/outputs/SnS2.2x2.hex.scf.out
+Occupations: smearing
+Smearing: cold
+degauss (Ry): 0.01
+Final total energy (Ry): -830.11330747
+Final total energy (eV): -11294.2669187504
+Relative energy (eV): 0.0000000000
+Fermi energy (eV): -1.8788
+Final total force (Ry/bohr): 0.002119
+
+Final stress and pressure:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=       -1.04
+  -0.00000377   0.00000000  -0.00000000           -0.55        0.00       -0.00
+   0.00000000  -0.00000377  -0.00000000            0.00       -0.55       -0.00
+  -0.00000000  -0.00000000  -0.00001368           -0.00       -0.00       -2.01
+
+Case: biaxial_1p0
+Strain: 1.0%
+Status: complete
+Input: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/inputs/biaxial_1p0/scf.in
+Output: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/outputs/biaxial_1p0/scf.out
+Occupations: smearing
+Smearing: cold
+degauss (Ry): 0.01
+Final total energy (Ry): -830.11226966
+Final total energy (eV): -11294.2527986260
+Relative energy (eV): 0.0141201244
+Fermi energy (eV): -1.9293
+Final total force (Ry/bohr): 0.002878
+
+Final stress and pressure:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=       -2.11
+  -0.00002263  -0.00000001  -0.00000120           -3.33       -0.00       -0.18
+  -0.00000001  -0.00002264   0.00000069           -0.00       -3.33        0.10
+  -0.00000120   0.00000069   0.00000233           -0.18        0.10        0.34
+
+Case: biaxial_3p0
+Strain: 3.0%
+Status: complete
+Input: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/inputs/biaxial_3p0/scf.in
+Output: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/outputs/biaxial_3p0/scf.out
+Occupations: smearing
+Smearing: cold
+degauss (Ry): 0.01
+Final total energy (Ry): -830.09997236
+Final total energy (eV): -11294.0854853360
+Relative energy (eV): 0.1814334144
+Fermi energy (eV): -2.3287
+Final total force (Ry/bohr): 0.002024
+
+Final stress and pressure:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=       -8.67
+  -0.00008501   0.00000007   0.00000058          -12.50        0.01        0.08
+   0.00000007  -0.00008493  -0.00000033            0.01      -12.49       -0.05
+   0.00000058  -0.00000033  -0.00000693            0.08       -0.05       -1.02
+
+Case: biaxial_5p0
+Strain: 5.0%
+Status: complete
+Input: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/inputs/biaxial_5p0/scf.in
+Output: /home/frost/projects/dft_SnS2/v0/SnS2/2x2/09_mechanical_01/03_strain/outputs/biaxial_5p0/scf.out
+Occupations: smearing
+Smearing: cold
+degauss (Ry): 0.01
+Final total energy (Ry): -830.07568982
+Final total energy (eV): -11293.7551045485
+Relative energy (eV): 0.5118142019
+Fermi energy (eV): -2.3662
+Final total force (Ry/bohr): 0.001534
+
+Final stress and pressure:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=      -12.24
+  -0.00012400   0.00000012   0.00000053          -18.24        0.02        0.08
+   0.00000012  -0.00012386  -0.00000031            0.02      -18.22       -0.05
+   0.00000053  -0.00000031  -0.00000166            0.08       -0.05       -0.24

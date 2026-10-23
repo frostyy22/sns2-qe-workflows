@@ -1,0 +1,8 @@
+strain_percent,case_label,cold_gap_ev,fixed_gap_ev,fixed_minus_cold_gap_ev,cold_gap_character,fixed_gap_character,max_printed_eigenvalue_difference_ev,band_ordering
+-5.0,biaxial_-5p0,1.37020000,1.37020000,0.0,indirect,indirect,0.0,energy_index_no_overlap
+-3.0,biaxial_-3p0,1.46840000,1.46840000,0.0,indirect,indirect,0.0,energy_index_no_overlap
+-1.0,biaxial_-1p0,1.53090000,1.53090000,0.0,indirect,indirect,0.0,energy_index_no_overlap
+0.0,biaxial_0p0,1.55180000,1.55180000,0.0,indirect,indirect,0.0,energy_index_no_overlap
+1.0,biaxial_1p0,1.57670000,1.57670000,0.0,indirect,indirect,0.0,energy_index_no_overlap
+3.0,biaxial_3p0,1.60800000,1.60800000,0.0,indirect,indirect,0.0,energy_index_no_overlap
+5.0,biaxial_5p0,1.49480000,1.49480000,0.0,indirect,indirect,0.0,energy_index_no_overlap

@@ -1,0 +1,7 @@
+&BANDS
+    prefix  = 'SnS2.2x2.hex.biaxial_-1p0.scf'
+    outdir  = '/home/frost/projects/dft_SnS2/v1/SnS2/2x2/09_mechanical_01/05_bands/work/biaxial_-1p0/cold/bands'
+    filband = '/home/frost/projects/dft_SnS2/v1/SnS2/2x2/09_mechanical_01/05_bands/results/biaxial_-1p0/SnS2.2x2.hex.biaxial_-1p0.cold.bands.dat'
+    lsym    = .false.
+    no_overlap  = .true.
+/

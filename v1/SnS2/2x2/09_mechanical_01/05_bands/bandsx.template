@@ -1,0 +1,7 @@
+&BANDS
+    prefix  = '__PREFIX__'
+    outdir  = '__OUTDIR__'
+    filband = '__BANDS_DATA_FILE__'
+    lsym    = .false.
+    no_overlap  = .true.
+/

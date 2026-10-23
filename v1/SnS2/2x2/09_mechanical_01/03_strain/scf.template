@@ -1,0 +1,39 @@
+&CONTROL
+    calculation = 'scf'
+    prefix      = '__PREFIX__'
+    outdir      = '__OUTDIR__'
+    pseudo_dir  = '__PSEUDO_DIR__'
+    tstress     = .true.
+    tprnfor     = .true.
+    disk_io     = 'low'
+/
+
+&SYSTEM
+    ibrav       = 0
+    nat         = 12
+    ntyp        = 2
+    degauss     = 1.0d-02
+    ecutwfc     = 80
+    ecutrho     = 400
+    occupations = 'smearing'
+    smearing    = 'cold'
+/
+
+&ELECTRONS
+    conv_thr        = 1.0d-6
+    mixing_beta     = 0.60
+    electron_maxstep = 100
+/
+
+ATOMIC_SPECIES
+S      32.065  S.pbe-n-kjpaw_psl.1.0.0.UPF
+Sn    118.710  Sn.pbe-dn-kjpaw_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+__CELL_PARAMETERS__
+
+ATOMIC_POSITIONS angstrom
+__ATOMIC_POSITIONS__
+
+K_POINTS automatic
+6 6 1 0 0 0

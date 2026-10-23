@@ -1,0 +1,8 @@
+strain_percent,case_label,status,fermi_energy_ev,vbm_relative_to_fermi_ev,cbm_relative_to_fermi_ev,band_gap_ev,gap_character,vbm_k_distance,cbm_k_distance,bands_data_file,plot_file
+-5.0,biaxial_-5p0,complete,-1.0678,-0.71590000,0.64910000,1.36500000,indirect,0.23090000,0.00000000,results/biaxial_-5p0/SnS2.2x2.hex.biaxial_-5p0.cold.bands.dat.gnu,results/biaxial_-5p0/cold.bands.pdf
+-3.0,biaxial_-3p0,complete,-1.4748,-0.68460000,0.77820000,1.46280000,indirect,0.25980000,0.00000000,results/biaxial_-3p0/SnS2.2x2.hex.biaxial_-3p0.cold.bands.dat.gnu,results/biaxial_-3p0/cold.bands.pdf
+-1.0,biaxial_-1p0,complete,-1.8324,-0.65440000,0.87080000,1.52520000,indirect,0.31750000,0.00000000,results/biaxial_-1p0/SnS2.2x2.hex.biaxial_-1p0.cold.bands.dat.gnu,results/biaxial_-1p0/cold.bands.pdf
+0.0,biaxial_0p0,complete,-1.9000,-0.73520000,0.81340000,1.54860000,indirect,0.34640000,0.00000000,results/biaxial_0p0/SnS2.2x2.hex.paw.cold.bands.dat.gnu,results/biaxial_0p0/cold.bands.pdf
+1.0,biaxial_1p0,complete,-2.1035,-0.67370000,0.89300000,1.56670000,indirect,0.37530000,0.00000000,results/biaxial_1p0/SnS2.2x2.hex.biaxial_1p0.cold.bands.dat.gnu,results/biaxial_1p0/cold.bands.pdf
+3.0,biaxial_3p0,complete,-2.3493,-0.66650000,0.91630000,1.58280000,indirect,0.72740000,0.00000000,results/biaxial_3p0/SnS2.2x2.hex.biaxial_3p0.cold.bands.dat.gnu,results/biaxial_3p0/cold.bands.pdf
+5.0,biaxial_5p0,complete,-2.4081,-0.69680000,0.77280000,1.46960000,indirect,0.72740000,0.00000000,results/biaxial_5p0/SnS2.2x2.hex.biaxial_5p0.cold.bands.dat.gnu,results/biaxial_5p0/cold.bands.pdf

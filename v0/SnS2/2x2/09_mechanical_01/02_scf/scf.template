@@ -1,0 +1,41 @@
+&CONTROL
+    calculation = 'scf'
+    prefix      = '__PREFIX__'
+    outdir      = '__OUTDIR__'
+    pseudo_dir  = '__PSEUDO_DIR__'
+    tstress     = .true.
+    tprnfor     = .true.
+    disk_io     = 'low'
+/
+
+&SYSTEM
+    ibrav       = 0
+    nat         = 12
+    ntyp        = 2
+    degauss     = 1.0d-02
+    ecutwfc     = 60
+    ecutrho     = 520
+    occupations = 'smearing'
+    smearing    = 'cold'
+/
+
+&ELECTRONS
+    conv_thr        = 1.0d-6
+    mixing_beta     = 0.60
+    electron_maxstep = 100
+/
+
+ATOMIC_SPECIES
+S      32.065  s_pbe_v1.4.uspp.F.UPF
+Sn    118.710  sn_pbe_v1.4.uspp.F.UPF
+
+CELL_PARAMETERS angstrom
+    7.3856851680     0.0000000000     0.0000000000
+   -3.6928425840     6.3961909794     0.0000000000
+    0.0000000000     0.0000000000    18.0000000000  !17.9999999157 explicitly fixed to 18.0
+
+ATOMIC_POSITIONS angstrom
+__ATOMIC_POSITIONS__
+
+K_POINTS automatic
+6 6 1 0 0 0

@@ -1,0 +1,7 @@
+run,status,c_angstrom,total_energy_ev,delta_total_energy_ev
+SnS2.2x2.c9,complete,9,-11294.2152769891,
+SnS2.2x2.c12,complete,12,-11294.2341178958,-0.01884091
+SnS2.2x2.c15,complete,15,-11294.2347505610,-0.00063267
+SnS2.2x2.c18,complete,18,-11294.2347271592,0.00002340
+SnS2.2x2.c21,complete,21,-11294.2347376356,-0.00001048
+SnS2.2x2.c24,complete,24,-11294.2347157304,0.00002191

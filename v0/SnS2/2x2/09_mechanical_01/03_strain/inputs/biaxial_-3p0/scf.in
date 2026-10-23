@@ -1,0 +1,52 @@
+&CONTROL
+    calculation = 'scf'
+    prefix      = 'SnS2.2x2.hex.biaxial_-3p0.scf'
+    outdir      = './work/biaxial_-3p0/scf'
+    pseudo_dir  = '../../../../../pp'
+    tstress     = .true.
+    tprnfor     = .true.
+    disk_io     = 'low'
+/
+
+&SYSTEM
+    ibrav       = 0
+    nat         = 12
+    ntyp        = 2
+    degauss     = 1.0d-02
+    ecutwfc     = 60
+    ecutrho     = 520
+    occupations = 'smearing'
+    smearing    = 'cold'
+/
+
+&ELECTRONS
+    conv_thr        = 1.0d-6
+    mixing_beta     = 0.60
+    electron_maxstep = 100
+/
+
+ATOMIC_SPECIES
+S      32.065  s_pbe_v1.4.uspp.F.UPF
+Sn    118.710  sn_pbe_v1.4.uspp.F.UPF
+
+CELL_PARAMETERS angstrom
+     7.1641146130     0.0000000000     0.0000000000
+    -3.5820573065     6.2043052500     0.0000000000
+     0.0000000000     0.0000000000     18.0000000000
+
+ATOMIC_POSITIONS angstrom
+Sn               0.0482638945        0.0835955174        0.0000000000
+Sn              -1.7485945347        3.1840730948        0.0002527148
+Sn               3.6317854549        0.0777097510       -0.0002527148
+Sn               1.8354918732        3.1791656727        0.0000000000
+S                0.0425606703        2.1514061171        1.5193866279
+S               -1.7453222953        5.2521197437        1.5165259858
+S                3.6272220636        2.1471815493        1.5197366690
+S                1.8395713077        5.2470665323        1.5171232026
+S                1.8418918742        1.1125619257       -1.5193866279
+S                5.4211301281        1.1145671636       -1.5165259858
+S                3.6243066904        4.2166492419       -1.5171232026
+S                0.0459021684        4.2148572271       -1.5197366690
+
+K_POINTS automatic
+6 6 1 0 0 0

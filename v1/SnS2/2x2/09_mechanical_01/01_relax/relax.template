@@ -1,0 +1,57 @@
+&CONTROL
+    calculation = 'relax'
+    prefix      = '__PREFIX__'
+    outdir      = '__OUTDIR__'
+    pseudo_dir  = '__PSEUDO_DIR__'
+    tstress     = .true.
+    tprnfor     = .true.
+    disk_io     = 'low'
+/
+
+&SYSTEM
+    ibrav       = 0
+    nat         = 12
+    ntyp        = 2
+    degauss     = 1.0d-02
+    ecutwfc     = 80
+    ecutrho     = 400
+    occupations = 'smearing'
+    smearing    = 'cold'
+/
+
+&ELECTRONS
+    conv_thr        = 1.0d-6
+    mixing_beta     = 0.60
+    electron_maxstep = 100
+/
+
+&IONS
+    ion_dynamics = 'bfgs'
+/
+
+ATOMIC_SPECIES
+S      32.065  S.pbe-n-kjpaw_psl.1.0.0.UPF
+Sn    118.710  Sn.pbe-dn-kjpaw_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+    7.4099425151     0.0000000000     0.0000000000
+   -3.7049712539     6.4171984545     0.0000000000
+    0.0000000000     0.0000000000    18.0000000000
+
+
+ATOMIC_POSITIONS angstrom
+Sn     0.0000000000     0.0000000000     0.0000000000
+Sn    -1.8524860634     3.2085989959     0.0000000000
+Sn     3.7049712728     0.0000000000     0.0000000000
+Sn     1.8524852094     3.2085989959     0.0000000000
+S     -0.0000002844     2.1390642442     1.4813398902
+S     -1.8524880322     5.3476661572     1.4813398902
+S      3.7049710983     2.1390660612     1.4813370930
+S      1.8524864985     5.3476661572     1.4813398902
+S      1.8524839756     1.0695321221    -1.4813398902
+S      5.5574586173     1.0695321221    -1.4813398902
+S      3.7049709239     4.2781339393    -1.4813398902
+S     -0.0000005697     4.2781321223    -1.4813370930
+
+K_POINTS automatic
+6 6 1 0 0 0

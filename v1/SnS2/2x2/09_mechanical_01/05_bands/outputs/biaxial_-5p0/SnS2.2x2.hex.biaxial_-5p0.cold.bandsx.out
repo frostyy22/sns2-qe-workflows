@@ -1,0 +1,57 @@
+
+     Program BANDS v.7.5 starts on 11Oct2026 at  2: 6:39 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     6055 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     /home/frost/projects/dft_SnS2/v1/SnS2/2x2/09_mechanical_01/05_bands/work/biaxial_-5p0/cold/bands/SnS2.2x2.hex.biaxial_-5p0.scf.save/
+     file S.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P renormalized
+     file Sn.pbe-dn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  5S 5P 4D renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        4891    3901   1039               704467   503773   69755
+
+     Using Slab Decomposition
+
+
+     negative rho (up, down):  1.561E-03 0.000E+00
+     Reading collected, re-writing distributed wavefunctions
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+     high-symmetry point:  0.5000 0.2887 0.0000   x coordinate   0.5774
+     high-symmetry point:  0.3333 0.5774 0.0000   x coordinate   0.9107
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   1.5774
+
+     Plottable bands (eV) written to file /home/frost/projects/dft_SnS2/v1/SnS2/2x2/09_mechanical_01/05_bands/results/biaxial_-5p0/SnS2.2x2.hex.biaxial_-5p0.cold.bands.dat.gnu
+     Bands written to file /home/frost/projects/dft_SnS2/v1/SnS2/2x2/09_mechanical_01/05_bands/results/biaxial_-5p0/SnS2.2x2.hex.biaxial_-5p0.cold.bands.dat
+
+     BANDS        :   1m44.34s CPU   2m16.77s WALL
+
+
+   This run was terminated on:   2: 8:55  11Oct2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

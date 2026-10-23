@@ -1,0 +1,14 @@
+Run: SnS2.2x2
+Status: complete
+
+Final total energy (Ry):
+-830.11330780
+
+Final stress and pressure:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=        1.04
+   0.00001003   0.00000000   0.00000000            1.48        0.00        0.00
+   0.00000000   0.00001003   0.00000000            0.00        1.48        0.00
+   0.00000000   0.00000000   0.00000123            0.00        0.00        0.18
+
+Final total force (Ry/bohr):
+0.002939

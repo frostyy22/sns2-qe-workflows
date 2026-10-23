@@ -1,0 +1,8 @@
+strain_percent,case_label,status,fermi_energy_ev,dos_data_file,plot_file
+-5.0,biaxial_-5p0,complete,-1.011,results/biaxial_-5p0/dos.dat,results/biaxial_-5p0/dos.pdf
+-3.0,biaxial_-3p0,complete,-1.134,results/biaxial_-3p0/dos.dat,results/biaxial_-3p0/dos.pdf
+-1.0,biaxial_-1p0,complete,-1.322,results/biaxial_-1p0/dos.dat,results/biaxial_-1p0/dos.pdf
+0.0,biaxial_0p0,complete,-1.441,results/biaxial_0p0/dos.dat,results/biaxial_0p0/dos.pdf
+1.0,biaxial_1p0,complete,-1.558,results/biaxial_1p0/dos.dat,results/biaxial_1p0/dos.pdf
+3.0,biaxial_3p0,complete,-1.791,results/biaxial_3p0/dos.dat,results/biaxial_3p0/dos.pdf
+5.0,biaxial_5p0,complete,-1.989,results/biaxial_5p0/dos.dat,results/biaxial_5p0/dos.pdf

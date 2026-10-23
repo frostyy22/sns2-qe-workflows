@@ -1,0 +1,17 @@
+Run: SnS2.2x2.hex.scf
+Status: complete
+
+Final total energy (Ry):
+-830.11330747
+
+Fermi energy (eV):
+-1.8788
+
+Final stress and pressure:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=       -1.04
+  -0.00000377   0.00000000  -0.00000000           -0.55        0.00       -0.00
+   0.00000000  -0.00000377  -0.00000000            0.00       -0.55       -0.00
+  -0.00000000  -0.00000000  -0.00001368           -0.00       -0.00       -2.01
+
+Final total force (Ry/bohr):
+0.002119

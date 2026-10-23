@@ -1,0 +1,6 @@
+&DOS
+    prefix = '__PREFIX__'
+    outdir = '__OUTDIR__'
+    fildos = '__DOS_DATA_FILE__'
+    DeltaE = 0.1
+/

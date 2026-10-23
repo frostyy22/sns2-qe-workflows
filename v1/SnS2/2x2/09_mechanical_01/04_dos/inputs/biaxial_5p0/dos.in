@@ -1,0 +1,6 @@
+&DOS
+    prefix = 'SnS2.2x2.hex.biaxial_5p0.scf'
+    outdir = '/home/frost/projects/dft_SnS2/v1/SnS2/2x2/09_mechanical_01/04_dos/work/biaxial_5p0/nscf'
+    fildos = '/home/frost/projects/dft_SnS2/v1/SnS2/2x2/09_mechanical_01/04_dos/results/biaxial_5p0/dos.dat'
+    DeltaE = 0.1
+/

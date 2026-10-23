@@ -1,0 +1,48 @@
+&CONTROL
+    calculation = 'scf'
+    prefix      = 'SnS2.2x2'
+    outdir      = '/home/frost/projects/dft_SnS2/v0/SnS2/2x2/04_vac/ecut_60_520_k6x6x1/work/SnS2.2x2.c24'
+    pseudo_dir  = '/home/frost/projects/dft_SnS2/pp'
+    tstress     = .true.
+    tprnfor     = .true.
+    disk_io     = 'low'
+/
+
+&SYSTEM
+    ibrav       = 4
+    A           = 7.3486113548
+    C           = 24
+    nat         = 12
+    ntyp        = 2
+    degauss     = 1.0d-02
+    ecutwfc     = 60
+    ecutrho     = 520
+    occupations = 'smearing'
+       smearing = 'cold'
+/
+
+&ELECTRONS
+    conv_thr    = 1.0d-6
+    mixing_beta = 0.60
+/
+
+ATOMIC_SPECIES
+S      32.065  s_pbe_v1.4.uspp.F.UPF
+Sn    118.710  sn_pbe_v1.4.uspp.F.UPF
+
+ATOMIC_POSITIONS angstrom
+Sn      0.0000000000      0.0000000000      0.0000000000
+Sn     -1.8371532620      3.1820418130      0.0000000000
+Sn      3.6743056770      0.0000000000      0.0000000000
+Sn      1.8371524150      3.1820418130      0.0000000000
+S      -0.0000002820      2.1213612720      1.4616170060
+S      -1.8371536540      5.3034032750      1.4616170060
+S       3.6743055040      2.1213612720      1.4616170060
+S       1.8371521330      5.3034032750      1.4616170060
+S       1.8371527520      1.0606806360     -1.4616170060
+S       5.5114586490      1.0606806360     -1.4616170060
+S       3.6743053310      4.2427225440     -1.4616170060
+S      -0.0000005650      4.2427225440     -1.4616170060
+
+K_POINTS automatic
+6 6 1 0 0 0

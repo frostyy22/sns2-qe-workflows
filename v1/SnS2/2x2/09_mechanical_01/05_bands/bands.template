@@ -1,0 +1,36 @@
+&CONTROL
+    calculation  = 'bands'
+    restart_mode = 'from_scratch'
+    prefix       = '__PREFIX__'
+    outdir       = '__OUTDIR__'
+    pseudo_dir   = '__PSEUDO_DIR__'
+    disk_io      = 'low'
+/
+
+&SYSTEM
+    ibrav       = 0
+    nat         = 12
+    ntyp        = 2
+    nbnd        = 62 ! 52 occupied + 10 empty bands
+    ecutwfc     = 80
+    ecutrho     = 400
+    occupations = 'fixed'
+/
+
+&ELECTRONS
+    conv_thr    = 1.0d-6
+    mixing_beta = 0.6
+/
+
+ATOMIC_SPECIES
+S      32.065  S.pbe-n-kjpaw_psl.1.0.0.UPF
+Sn    118.710  Sn.pbe-dn-kjpaw_psl.1.0.0.UPF
+
+__STRUCTURE__
+
+K_POINTS crystal_b
+4
+0.0000000000   0.0000000000   0.0000000000   20  ! Gamma
+0.5000000000   0.0000000000   0.0000000000   20  ! M
+0.3333333333   0.3333333333   0.0000000000   20  ! K
+0.0000000000   0.0000000000   0.0000000000    1  ! Gamma
